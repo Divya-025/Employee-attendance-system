@@ -1,26 +1,26 @@
-# Employee Attendance System 🚀
+# Employee Attendance System 
 
-## 📌 Project Overview
+##  Project Overview
 The **Employee Attendance System** is designed to manage and track employee attendance efficiently.  
 This project uses **MySQL** as the database and **Power BI** for visualization.
 
-## 📁 Features
-✅ Employee Management (50+ Employees)  
-✅ Attendance Tracking (Check-in & Check-out)  
-✅ Leave Management (Sick, Casual, Annual)  
-✅ Role-based Access (Admin & Employee)  
-✅ Power BI Dashboard for Attendance Analysis  
+##  Features
+ Employee Management (50+ Employees)  
+ Attendance Tracking (Check-in & Check-out)  
+ Leave Management (Sick, Casual, Annual)  
+ Role-based Access (Admin & Employee)  
+ Power BI Dashboard for Attendance Analysis  
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Database**: MySQL  
 - **Data Visualization**: Power BI  
 
 ---
 
-## 📑 Database Schema
-### 🏢 Employees Table
+##  Database Schema
+###  Employees Table
 | Column | Type | Description |
 |--------|------|-------------|
 | employee_id | INT (PK) | Unique Employee ID |
@@ -31,7 +31,7 @@ This project uses **MySQL** as the database and **Power BI** for visualization.
 | phone | VARCHAR(15) | Contact Number |
 | hire_date | DATE | Date of Joining |
 
-### ⏳ Attendance Table
+###  Attendance Table
 | Column | Type | Description |
 |--------|------|-------------|
 | attendance_id | INT (PK) | Unique Attendance ID |
@@ -40,7 +40,7 @@ This project uses **MySQL** as the database and **Power BI** for visualization.
 | check_out | DATETIME | Check-out Time |
 | status | ENUM | Present, Absent, Leave |
 
-### 🏝️ Leaves Table
+###  Leaves Table
 | Column | Type | Description |
 |--------|------|-------------|
 | leave_id | INT (PK) | Unique Leave ID |
@@ -49,7 +49,7 @@ This project uses **MySQL** as the database and **Power BI** for visualization.
 | leave_type | ENUM | Sick, Casual, Annual |
 | status | ENUM | Pending, Approved, Rejected |
 
-### 🔑 Users Table (Login System)
+###  Users Table (Login System)
 | Column | Type | Description |
 |--------|------|-------------|
 | user_id | INT (PK) | Unique User ID |
